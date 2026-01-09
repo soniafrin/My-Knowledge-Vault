@@ -9,10 +9,9 @@
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
 }
-/* header{
-    
-} */
+
 nav{
+    max-width: 100%;
     display: flex;
     background-color:antiquewhite;
     justify-content:space-between;
