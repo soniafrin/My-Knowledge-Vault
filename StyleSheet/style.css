@@ -9,6 +9,39 @@
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
 }
+nav .btn a, #banner .btn a, #join .btn a {
+    text-decoration: none;
+    background-color: #469165;
+    border-radius: 4px;
+    border: none;
+    padding: 12px 16px;
+    line-height: 100%;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+nav .btn a:hover, #banner .btn a:hover, #join .btn a:hover {
+    background-color: #2c6945;
+}
+
+#brain .section-heading,#notes .section-heading {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 100%;
+    margin-top: 50px;
+    color: #001913;
+}
+
+.Section-Para{
+    background-color:yellowgreen;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #627382;
+}
+
+/* individual style */
 
 nav{
     display: flex;
@@ -25,21 +58,7 @@ nav ul{
     
 }
 
-nav .btn a, #banner .btn a, #join .btn a {
-    text-decoration: none;
-    background-color: #469165;
-    border-radius: 4px;
-    border: none;
-    padding: 12px 16px;
-    line-height: 100%;
-    color: #ffffff;
-    font-size: 16px;
-    font-weight: 600;
-    cursor: pointer;
-}
-nav .btn a:hover, #banner .btn a:hover, #join .btn a:hover {
-    background-color: #2c6945;
-}
+
 #banner{
     position: relative;
     display: flex;
@@ -116,19 +135,9 @@ nav .btn a:hover, #banner .btn a:hover, #join .btn a:hover {
     text-align: center;
     margin-bottom: 44px;
 }
-.note-heading h2{
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 100%;
-    margin-top: 50px;
-    color: #001913;
-;
-}
+
 .note-heading p{
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 20px;
-    color: #627382;
+    
     margin-top: 16px;
 
 }
@@ -154,12 +163,9 @@ nav .btn a:hover, #banner .btn a:hover, #join .btn a:hover {
     margin-bottom: 16px; 
 }
 .note-card p{
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 20px;
     margin-bottom: 22px;
 }
-#brain{
+#solution{
     /* background-color: yellow; */
     padding: 120px;
 }
@@ -186,18 +192,8 @@ nav .btn a:hover, #banner .btn a:hover, #join .btn a:hover {
     margin-bottom: 16px;
 
 }
-.brain-heading h2{
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 100%;
-    color: #001931;
-    margin-bottom: 16px;
-}
+
 .brain-heading p{
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 20px;
-    color: #627382;
     margin-bottom: 40px;
 }
 
