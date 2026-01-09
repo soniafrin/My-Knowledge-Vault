@@ -11,7 +11,6 @@
 }
 
 nav{
-    max-width: 100%;
     display: flex;
     background-color:antiquewhite;
     justify-content:space-between;
@@ -25,13 +24,8 @@ nav ul{
     list-style-type: none;
     
 }
-nav ul li a{
-    text-decoration: none;
-    color: #000000;
-    font-size: 16px;
-    font-weight: 500;
-}
-nav .btn{
+
+nav .btn a, #banner .btn a, #join .btn a {
     text-decoration: none;
     background-color: #469165;
     border-radius: 4px;
@@ -43,7 +37,7 @@ nav .btn{
     font-weight: 600;
     cursor: pointer;
 }
-nav .btn:hover{
+nav .btn a:hover, #banner .btn a:hover, #join .btn a:hover {
     background-color: #2c6945;
 }
 #banner{
@@ -59,6 +53,7 @@ nav .btn:hover{
     width: 85%;
     max-width: 1360px;
     margin: 0 auto;
+    margin-bottom: 180px; 
     /* background-color: aqua; */
 }
 .banner-highlight{
@@ -100,26 +95,15 @@ nav .btn:hover{
     gap: 16px;
     border-radius: 4px;
 }
-.banner-bottom a{
-    color: #ffffff;
-     border-radius: 4px;
-     padding: 12px 16px;
-     text-decoration: none;
-     font-size: 16px;
-     font-weight: 600;
-     line-height: 100%;
-     background: #30B868; 
-     margin-bottom: 180px; 
-}
-
-.banner-bottom-text a{
+/* .btn a{
     background:none;
     border: 1px solid #ffffff;
-}
-.banner-bottom a:hover{
+} */
+/* .btn a:hover{
     background-color: #2c6945;
 
-}
+} */
+/* Note section */
 #note{}
 
 #notes{
@@ -248,20 +232,12 @@ nav .btn:hover{
     margin-bottom: 24px;
     color: #627382;
 }
-.join-button a{
-    background-color: #30B868;
-    padding: 12px 16px;
-    text-decoration: none;
-    color: #ffffff;
-    font-size: 16px;
-    font-weight: 600;
+.btn a{
     margin-bottom: 16px;
-    border-radius: 4px;
-    cursor: pointer;
 }
-.join-button a:hover{
+/* .btn a:hover{
     background-color: #2c6945;
-}
+} */
 .join-text{
     font-size: 16px;
     font-weight: 400;
