@@ -32,6 +32,7 @@ nav ul li a{
     font-weight: 500;
 }
 nav .btn{
+    text-decoration: none;
     background-color: #469165;
     border-radius: 4px;
     border: none;
@@ -268,3 +269,38 @@ nav .btn:hover{
     
 }
 
+footer{
+    background-color: #001931;
+}
+
+.footer-logo{
+    padding: 120px 0 80px 0;
+    /* background-color: yellowgreen; */
+    width: 85%;
+    max-width: 1360px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.socials, a{
+    color: #E5E7EB;
+    margin-bottom: 16px;
+}
+
+.copyright{
+    width: 85%;
+    max-width: 1360px;
+    margin: 0 auto;
+}
+.copyright hr{
+    border: 1px solid #e5e7eb14;
+    margin-bottom: 30px;
+}
+.copyright p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+   color: #FAFAFA;
+   text-align: center;
+   padding-bottom: 30px;
+}
