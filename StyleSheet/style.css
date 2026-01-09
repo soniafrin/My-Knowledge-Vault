@@ -112,14 +112,13 @@ nav ul{
     gap: 16px;
     border-radius: 4px;
 }
-/* .btn a{
+#banner .button-two a{
     background:none;
     border: 1px solid #ffffff;
-} */
-/* .btn a:hover{
-    background-color: #2c6945;
-
-} */
+}
+#banner .banner-bottom{
+    padding-bottom:13px
+}
 /* Note section */
 #note{}
 
