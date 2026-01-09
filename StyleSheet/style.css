@@ -165,11 +165,10 @@ nav ul{
 }
 /* Solution section */
 #solution{
-    background-color: yellow;
     padding: 120px;
 }
-.brain-body{
-    border: 1px solid rebeccapurple;
+.solution-body{
+    /* border: 1px solid red; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -177,13 +176,13 @@ nav ul{
     max-width: 1360px;
     margin: 0 auto;
 }
-.brain-img{
+.solution-img{
     border-radius: 12px;
 }
-.brain-design{
+.solution-content{
     padding: 120px 0 120px 60px;
 }
-.brain-heading .brain-solution{
+.solution-heading .the-solution{
     color: #30B868;
     font-size: 16px;
     font-weight: 500;
@@ -192,7 +191,7 @@ nav ul{
 
 }
 
-.brain-heading p{
+.solution-heading p{
     margin-bottom: 40px;
 }
 
@@ -231,7 +230,7 @@ nav ul{
     color: #627382;
 }
 
-.Section-Para{
+#join .Section-Para{
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
