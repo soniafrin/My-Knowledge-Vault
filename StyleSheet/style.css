@@ -116,3 +116,59 @@ nav .btn:hover{
     background:none;
     border: 1px solid #ffffff;
 }
+
+#note{}
+
+#notes{
+    width: 85%;
+    max-width: 1360px;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+}
+.note-heading{
+    text-align: center;
+    margin-bottom: 44px;
+}
+.note-heading h2{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 100%;
+    padding-top: 30px;
+    color: #001913;
+;
+}
+.note-heading p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #627382;
+    margin-top: 16px;
+
+}
+.typs-of-note{
+    display: flex;
+    gap: 16px;
+}
+.note-card{
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px 0px #00000020;
+    padding: 24px;
+    text-align: center;
+
+}
+.note-card img{
+    background-color:#F95555;
+    margin-bottom: 16px;
+}
+.note-card h3{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 100%;
+    margin-bottom: 16px; 
+}
+.note-card p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 22px;
+}
