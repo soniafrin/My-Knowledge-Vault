@@ -98,7 +98,6 @@ nav .btn:hover{
     display: flex;
     justify-content: center;
     gap: 16px;
-   
     border-radius: 4px;
 }
 .banner-bottom a{
@@ -112,11 +111,15 @@ nav .btn:hover{
      background: #30B868; 
      margin-bottom: 180px; 
 }
+
 .banner-bottom-text a{
     background:none;
     border: 1px solid #ffffff;
 }
+.banner-bottom a:hover{
+    background-color: #2c6945;
 
+}
 #note{}
 
 #notes{
