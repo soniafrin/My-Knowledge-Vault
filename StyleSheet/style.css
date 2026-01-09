@@ -54,10 +54,8 @@ nav{
 nav ul{
     display:flex;
     gap: 32px;
-    list-style-type: none;
-    
+    list-style-type: none;  
 }
-
 
 #banner{
     position: relative;
@@ -165,11 +163,13 @@ nav ul{
 .note-card p{
     margin-bottom: 22px;
 }
+/* Solution section */
 #solution{
-    /* background-color: yellow; */
+    background-color: yellow;
     padding: 120px;
 }
 .brain-body{
+    border: 1px solid rebeccapurple;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -181,7 +181,6 @@ nav ul{
     border-radius: 12px;
 }
 .brain-design{
-    max-width: 700px;
     padding: 120px 0 120px 60px;
 }
 .brain-heading .brain-solution{
@@ -197,15 +196,15 @@ nav ul{
     margin-bottom: 40px;
 }
 
-.checklist{
+.checklist-body{
     display: flex;
     gap: 6px;
     margin-bottom: 16px;
 }
 
-#join{
-    padding-bottom: 120px;
-}
+/* join Section */
+
+
 .join-body{
     background-color: #F7F6F2;
     width: 85%;
@@ -213,13 +212,16 @@ nav ul{
     margin: 0 auto;
     text-align: center;
 }
+
+
 .join-heading h2{
     font-size: 40px;
     font-weight: 700;
     line-height: 100%;
+    padding-top:80px;
     margin-bottom: 16px;
     color: #001931;
-    padding-top: 80px;
+    
 }
 .join-heading p{
     font-size: 16px;
@@ -228,19 +230,14 @@ nav ul{
     margin-bottom: 24px;
     color: #627382;
 }
-.btn a{
-    margin-bottom: 16px;
-}
-/* .btn a:hover{
-    background-color: #2c6945;
-} */
-.join-text{
+
+.Section-Para{
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
     color: #627382;
-    margin-top: 16px;
     padding-bottom: 80px;
+    margin-top: 16px;
     
 }
 
