@@ -132,7 +132,7 @@ nav .btn:hover{
     font-size: 48px;
     font-weight: 700;
     line-height: 100%;
-    padding-top: 30px;
+    margin-top: 50px;
     color: #001913;
 ;
 }
@@ -171,3 +171,52 @@ nav .btn:hover{
     line-height: 20px;
     margin-bottom: 22px;
 }
+#brain{
+    /* background-color: yellow; */
+    padding: 120px;
+}
+.brain-body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    max-width: 1360px;
+    margin: 0 auto;
+}
+.brain-img{
+    border-radius: 12px;
+}
+.brain-design{
+    max-width: 700px;
+    padding: 120px 0 120px 60px;
+}
+.brain-heading .brain-solution{
+    color: #30B868;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 16px;
+
+}
+.brain-heading h2{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 100%;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.brain-heading p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 40px;
+}
+
+.checklist{
+    display: flex;
+    gap: 6px;
+    margin-bottom: 16px;
+}
+
+
